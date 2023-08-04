@@ -1,9 +1,16 @@
 body {
-    background-color:#b8f5c0;
+    background-color:#6ad1f4;
 }
 
+.perfilF{
+   width:350px; 
+   height:450px;
+   float: right;
+   
+}
  img {
     border-radius: 70%;
+   
  }
 
  nav ul li{
@@ -14,34 +21,65 @@ body {
     list-style: none;
     display: flex;
     justify-content: spa;
-    background-color:seagreen;
+    background-color:black;
+    font-size: x-large;
  }
- nav ul li a{
-    padding: 10px;
-    background-color:darkgreen ;
-    color: black;
-    text-decoration: none;
-    font-size:25px;
- }
+ 
  h2{
 font-size: 50px;
    text-align: center;
  }
- .icono{
-   text-align: center;
-   color: black;
-
+ #icono{
+   text-align: justify;
+   
+padding-right: 3000%;
  }
  .card{
 text-align: Justify;
-
+padding-right: 0%;
 }
 .listaherramientas{
    align-content: 20%;
+   padding:right;
 }
 .listaskills{
    align-content: 20%;
+   margin: auto;
 }
 .nombre{
    text-align: center;
+}
+.espacio{
+   padding: 9%;
+}
+.espacio1{
+   padding: 1%;
+}
+
+
+/* Pagina contácto */
+
+.form-label{
+
+   font-size: 25px;
+}
+
+
+
+.rotate-diagonal-left{animation:rotate-diagonal-left 0.6s;} @keyframes rotate-diagonal-left{0%{transform:rotate3d(-1,1,0,0deg)}50%{transform:rotate3d(-1,1,0,180deg)}100%{transform:rotate3d(-1,1,0,360deg)}}
+
+.logo{
+   width: 50px;
+   height: 50px;
+}
+p{
+   font-size: x-large;
+}
+h5{
+   font-size: x-large;
+
+}
+#navbartitulo{
+font-style: oblique;
+padding-left: 30%;
 }
