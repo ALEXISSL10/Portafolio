@@ -32,15 +32,16 @@ font-size: 50px;
  #icono{
    text-align: justify;
    
+   
 padding-right: 3000%;
  }
  .card{
 text-align: Justify;
 padding-right: 0%;
 }
-.listaherramientas{
+#listaherramientas{
    align-content: 20%;
-   padding:right;
+   padding:center;
 }
 .listaskills{
    align-content: 20%;
